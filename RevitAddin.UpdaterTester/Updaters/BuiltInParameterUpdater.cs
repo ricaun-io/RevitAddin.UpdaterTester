@@ -51,7 +51,7 @@ namespace RevitAddin.UpdaterTester.Updaters
             var value = "";
             if (document.GetElement(elementId) is Element element)
             {
-                value = "NOT FOUND?";
+                value = (builtInParameter == BuiltInParameter.INVALID) ? "ANY" : "INVALID";
                 if (element.get_Parameter(builtInParameter) is Parameter parameter)
                 {
                     value = parameter.AsValueString();
