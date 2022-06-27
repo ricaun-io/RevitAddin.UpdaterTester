@@ -90,7 +90,7 @@
 
   <PropertyGroup>
     <PackageId>RevitAddin.UpdaterTester</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <ProjectGuid>{0AB99FF0-5870-434C-B233-1CF37D191B46}</ProjectGuid>
   </PropertyGroup>
 

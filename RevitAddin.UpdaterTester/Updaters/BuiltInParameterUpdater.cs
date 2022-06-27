@@ -51,7 +51,7 @@ namespace RevitAddin.UpdaterTester.Updaters
             var value = "";
             if (document.GetElement(elementId) is Element element)
             {
-                value = "NOT FOUND?";
+                value = (builtInParameter == BuiltInParameter.INVALID) ? "ANY" : "INVALID";
                 if (element.get_Parameter(builtInParameter) is Parameter parameter)
                 {
                     value = parameter.AsValueString();
@@ -80,6 +80,8 @@ namespace RevitAddin.UpdaterTester.Updaters
             {
                 UpdaterRegistry.AddTrigger(GetUpdaterId(), elementFilter, changeType);
             }
+
+            UpdaterRegistry.AddTrigger(GetUpdaterId(), elementFilter, Element.GetChangeTypeAny());
         }
 
         private IEnumerable<ChangeType> GetChangeTypes()
@@ -96,7 +98,10 @@ namespace RevitAddin.UpdaterTester.Updaters
                     data.IsChangeTriggered(elementId, Element.GetChangeTypeParameter(new ElementId(e)))
                 );
 
-            return changes.Distinct();
+            if (changes.Any())
+                return changes.Distinct();
+
+            return new[] { BuiltInParameter.INVALID };
         }
 
         public void Enable()

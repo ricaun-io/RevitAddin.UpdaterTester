@@ -6,9 +6,6 @@
     "build": {
       "type": "object",
       "properties": {
-        "Application": {
-          "type": "string"
-        },
         "ApplicationType": {
           "type": "string"
         },
