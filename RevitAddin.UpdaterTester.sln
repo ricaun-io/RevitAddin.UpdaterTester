@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevitAddin.UpdaterTester", "RevitAddin.UpdaterTester\RevitAddin.UpdaterTester.csproj", "{0AB99FF0-5870-434C-B233-1CF37D191B46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Build", "Build\Build.csproj", "{888C7C67-920F-45D9-8502-D58FB9B3DDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{15120C90-2E2B-4DA0-8DCD-FFDDD09E3C20}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2020|Any CPU = 2020|Any CPU
+		2021|Any CPU = 2021|Any CPU
+		2022|Any CPU = 2022|Any CPU
+		2023|Any CPU = 2023|Any CPU
+		Debug 2021|Any CPU = Debug 2021|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2020|Any CPU.ActiveCfg = 2020|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2020|Any CPU.Build.0 = 2020|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2021|Any CPU.ActiveCfg = 2021|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2021|Any CPU.Build.0 = 2021|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2022|Any CPU.ActiveCfg = 2022|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2022|Any CPU.Build.0 = 2022|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2023|Any CPU.ActiveCfg = 2023|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.2023|Any CPU.Build.0 = 2023|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.Debug 2021|Any CPU.ActiveCfg = Debug 2021|Any CPU
+		{0AB99FF0-5870-434C-B233-1CF37D191B46}.Debug 2021|Any CPU.Build.0 = Debug 2021|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2020|Any CPU.ActiveCfg = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2020|Any CPU.Build.0 = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2021|Any CPU.ActiveCfg = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2021|Any CPU.Build.0 = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2022|Any CPU.ActiveCfg = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2022|Any CPU.Build.0 = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2023|Any CPU.ActiveCfg = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.2023|Any CPU.Build.0 = Release|Any CPU
+		{888C7C67-920F-45D9-8502-D58FB9B3DDA1}.Debug 2021|Any CPU.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AAB7B35-2EDF-4919-86C3-EB7170C86C58}
+	EndGlobalSection
+EndGlobal
