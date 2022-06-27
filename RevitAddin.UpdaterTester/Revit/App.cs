@@ -20,6 +20,7 @@ namespace RevitAddin.UpdaterTester.Revit
             ribbonPanel = application.CreatePanel("UpdaterTester");
             ribbonPanel.AddPushButton<Commands.Command>("Updater\rTester")
                 .SetToolTip("Open Updater Tester Dialog.")
+                .SetContextualHelp("https://ricaun.com")
                 .SetLargeImage(Properties.Resources.Revit.GetBitmapSource());
 
             application.Idling += Application_Idling;
