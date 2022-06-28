@@ -9,7 +9,7 @@
     <LangVersion>9</LangVersion>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
-    <Configurations>Debug 2021;2021;2020;2022;2023</Configurations>
+    <Configurations>Debug 2021;2021;2020;2022;2023;2019;2018;2017</Configurations>
   </PropertyGroup>
 
   <!-- RevitVersion -->
@@ -90,7 +90,7 @@
 
   <PropertyGroup>
     <PackageId>RevitAddin.UpdaterTester</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <ProjectGuid>{0AB99FF0-5870-434C-B233-1CF37D191B46}</ProjectGuid>
   </PropertyGroup>
 
