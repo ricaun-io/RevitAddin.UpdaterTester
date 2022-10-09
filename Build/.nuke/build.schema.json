@@ -88,6 +88,9 @@
         "ReleaseBundle": {
           "type": "boolean"
         },
+        "ReleaseNameVersion": {
+          "type": "boolean"
+        },
         "ReleasePackageBuilder": {
           "type": "boolean"
         },
