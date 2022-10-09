@@ -16,6 +16,7 @@ Revit Addin to show what `BuiltInParameter` is trigger using `IUpdater` on each 
 ## Release
 
 * [Latest release](../../releases/latest)
+* [Download RevitAddin.UpdaterTester](../../releases/latest/download/RevitAddin.UpdaterTester.zip)
 
 ## License
 

@@ -90,7 +90,7 @@
 
   <PropertyGroup>
     <PackageId>RevitAddin.UpdaterTester</PackageId>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <ProjectGuid>{0AB99FF0-5870-434C-B233-1CF37D191B46}</ProjectGuid>
   </PropertyGroup>
 
@@ -131,7 +131,7 @@
 
   <!-- Fody -->
   <ItemGroup>
-    <PackageReference Include="PropertyChanged.Fody" Version="3.4.0" IncludeAssets="compile; build" PrivateAssets="all" />
+    <PackageReference Include="PropertyChanged.Fody" Version="*" IncludeAssets="compile; build" PrivateAssets="all" />
   </ItemGroup>
   <PropertyGroup>
     <WeaverConfiguration>
@@ -142,7 +142,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="*" IncludeAssets="build; compile" PrivateAssets="All" />
+    <PackageReference Include="Newtonsoft.Json" Version="9.*" IncludeAssets="build; compile" PrivateAssets="All" />
     <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RevitVersion).*" IncludeAssets="build; compile" PrivateAssets="All" />
   </ItemGroup>
 
