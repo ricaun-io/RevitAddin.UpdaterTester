@@ -6,7 +6,7 @@ using System;
 
 namespace RevitAddin.UpdaterTester.Revit
 {
-    [Console]
+    [AppLoader]
     public class App : IExternalApplication
     {
         private static RibbonPanel ribbonPanel;
@@ -18,7 +18,7 @@ namespace RevitAddin.UpdaterTester.Revit
             Updater.Disable();
 
             ribbonPanel = application.CreatePanel("UpdaterTester");
-            ribbonPanel.AddPushButton<Commands.Command>("Updater\rTester")
+            ribbonPanel.CreatePushButton<Commands.Command>("Updater\rTester")
                 .SetToolTip("Open Updater Tester Dialog.")
                 .SetContextualHelp("https://ricaun.com")
                 .SetLargeImage(Properties.Resources.Revit.GetBitmapSource());
