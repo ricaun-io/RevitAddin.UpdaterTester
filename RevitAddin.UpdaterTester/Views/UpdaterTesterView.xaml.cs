@@ -2,8 +2,10 @@
 using RevitAddin.UpdaterTester.Models;
 using ricaun.Revit.Mvvm;
 using ricaun.Revit.UI;
+using ricaun.Revit.UI.Drawing;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Windows;
 
 namespace RevitAddin.UpdaterTester.Views
