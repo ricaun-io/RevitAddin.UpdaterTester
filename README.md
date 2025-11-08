@@ -2,12 +2,11 @@
 
 Revit Addin to show what `BuiltInParameter` is trigger using `IUpdater` on each `BuiltInParameter`.
 
-[![Revit 2017](https://img.shields.io/badge/Revit-2017+-blue.svg)](../..)
+[![Revit 2019](https://img.shields.io/badge/Revit-2019+-blue.svg)](../..)
 [![Visual Studio 2022](https://img.shields.io/badge/Visual%20Studio-2022-blue)](../..)
 [![Nuke](https://img.shields.io/badge/Nuke-Build-blue)](https://nuke.build/)
 [![License MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Publish](../../actions/workflows/Publish.yml/badge.svg)](../../actions)
-[![Develop](../../actions/workflows/Develop.yml/badge.svg)](../../actions)
+[![Build](../../actions/workflows/Build.yml/badge.svg)](../../actions)
 
 ## Video
 
@@ -16,7 +15,19 @@ Revit Addin to show what `BuiltInParameter` is trigger using `IUpdater` on each 
 ## Release
 
 * [Latest release](../../releases/latest)
-* [Download RevitAddin.UpdaterTester](../../releases/latest/download/RevitAddin.UpdaterTester.zip)
+
+### AppBundleTool
+
+The [ricaun.AppBundleTool](https://github.com/ricaun-io/ricaun.AppBundleTool) can be used to install/uninstall the `RevitAddin.UpdaterTester.bundle` by downloading it from the latest release.
+
+#### Install
+```bash
+AppBundleTool -i -a https://github.com/ricaun-io/RevitAddin.UpdaterTester/releases/latest/download/RevitAddin.UpdaterTester.bundle.zip
+```
+#### Uninstall
+```bash
+AppBundleTool -u -a RevitAddin.UpdaterTester
+```
 
 ## License
 
