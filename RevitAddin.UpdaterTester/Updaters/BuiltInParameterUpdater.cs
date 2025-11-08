@@ -35,7 +35,11 @@ namespace RevitAddin.UpdaterTester.Updaters
                 if (document.GetElement(id) is Element element)
                 {
                     name = element.Name;
+#if NET
+                    category = element.Category.BuiltInCategory;
+#else
                     category = (BuiltInCategory)element.Category.Id.IntegerValue;
+#endif
                 }
 
                 var values = changes
