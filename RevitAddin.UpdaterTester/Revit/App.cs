@@ -2,7 +2,6 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using RevitAddin.UpdaterTester.Updaters;
 using ricaun.Revit.UI;
-using ricaun.Revit.UI.Drawing;
 using System;
 
 namespace RevitAddin.UpdaterTester.Revit
