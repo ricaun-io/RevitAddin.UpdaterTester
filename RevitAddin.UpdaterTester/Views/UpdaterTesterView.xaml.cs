@@ -4,6 +4,7 @@ using ricaun.Revit.Mvvm;
 using ricaun.Revit.UI;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Windows;
 
 namespace RevitAddin.UpdaterTester.Views
@@ -44,7 +45,7 @@ namespace RevitAddin.UpdaterTester.Views
         private void InitializeWindow()
         {
             this.Title = $"UpdaterTester {this.GetType().Assembly.GetName().Version.ToString(3)}";
-            this.Icon = Properties.Resources.Revit.GetBitmapSource();
+            this.Icon = "Resources/Revit.ico".GetBitmapSource();
             this.MinWidth = 480;
             this.MaxWidth = 480;
             this.MinHeight = 360;
