@@ -38,4 +38,4 @@ This project is [licensed](LICENSE) under the [MIT License](https://en.wikipedia
 Do you like this project? Please [star this project on GitHub](../../stargazers)!
 
 [Video]: https://youtu.be/Mg_2_C8w-LM
-[VideoIma]: https://img.youtube.com/vi/Mg_2_C8w-LM/hqdefault.jpg
+[VideoIma]: https://img.youtube.com/vi/Mg_2_C8w-LM/mqdefault.jpg
