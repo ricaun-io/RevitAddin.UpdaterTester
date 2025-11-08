@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Remove Support Revit 2017 and 2018.
 ### Updated
 - Update project to support Revit 2025+.
+- Update Build project and CI/CD pipeline.
 
 ## [1.0.5] / 2022-11-22
 ### Updated
