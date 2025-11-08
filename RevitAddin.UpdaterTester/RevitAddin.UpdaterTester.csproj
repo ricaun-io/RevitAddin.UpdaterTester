@@ -88,10 +88,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\Revit.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="ricaun.Revit.UI" Version="*" />
     <PackageReference Include="ricaun.Revit.Mvvm" Version="*" />
   </ItemGroup>
@@ -115,6 +111,11 @@
 
   <ItemGroup>
     <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="$(RevitVersion).*" IncludeAssets="build; compile" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Revit.ico" />
+    <Resource Include="Resources\Revit.ico" />
   </ItemGroup>
 
 </Project>
